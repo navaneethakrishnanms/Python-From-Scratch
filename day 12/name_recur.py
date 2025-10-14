@@ -5,4 +5,6 @@ def name_recur(n,a):
     name_recur(n,a-1)
 a=int(input("Enter the number:"))
 n=input("Enter your name:")
+
+
 name_recur(n,a)
